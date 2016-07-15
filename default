@@ -1,7 +1,7 @@
 server {
     listen         80;
 	server_name "~^(?!www\.).*" ;
-    return 301 $scheme://www.$host$request_uri;
+    return 301 https://www.$host$request_uri;
 }
 
 server {
